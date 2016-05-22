@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+<script>
+$(function(){
+  var nav_click=false;
+  $('.nav-ul li a').hover(function(){
+    $(this).css({"background-color":"#7092be","color":"white"});
+    /*, 'border':"2px #ccc solid",'border-top-right-radius':"10px",'border-top-left-radius':"10px",'border-bottom:solid':'3px #375379'*/
+    //$('#header').css({"border-bottom":"solid 5px #375379"}); 
+    }, function(){
+    $(this).css({"background-color":"#dcdcdc","color":"black"});/*,'border':"0px #ccc solid"*/
+    //$('#header').css({"border-bottom":"solid 0px #375379"}); 
+  });
+
+  $('.menu img').hover(function(){
+    $(this).attr("src","menu_x.png");
+    }, function(){
+    $(this).attr("src","menu.png");
+  });
+
+  $('.menu img').click(function(){
+    $('.nav-list').css('margin-top',$(this).height()+'px').slideToggle();
+  });
+
+/*  $(window).resize(function() {
+  $('.nav-list').css("display", "none");
+});*/
+  
+  $('#scholl-detail p').hover(function(){
+    var img='.'+$(this).attr('class')+'-img';
+
+    $(img).css({
+  '-moz-transform':'scale(1.5,1.5) translate(0px,-20px) ',
+  '-webkit-transform':'scale(1.5,1.5) translate(0px,-20px)',
+  '-o-tramnsform':'scale(1.5,1.5) translate(0px,-20px)',
+
+    });
+    }, function(){
+      var img='.'+$(this).attr('class')+'-img';
+  $(img).css({
+  '-webkit-transform':'scale(1,1)',
+  '-o-tramnsform':'scale(1,1)',
+    });
+  });
+
+
+});
+
+</script>
+</head>
+<body>
+<div id="header" class="header">
+  <ul class="nav-ul" style="">
+    <li><a href="p1.html" target="_parent">關於我</a></li>
+    <li><a href="p2.html" target="_parent">小作品</a></li>
+    <li><a href="p3.html" target="_parent">其他</a></li>
+  </ul>
+</div>
+<div class="nav"><a class="menu" href="#"><img src="menu.png"></a>
+
+<div class="nav-list">
+<ul >
+    <li><a href="p1.html" target="_parent">關於我</a></li>
+    <li><a href="p2.html" target="_parent">小作品</a></li>
+    <li><a href="p3.html" target="_parent">其他</a></li>
+</ul>
+</div></div>
+</body>
+</html>

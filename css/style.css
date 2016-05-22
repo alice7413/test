@@ -1,0 +1,688 @@
+@charset "utf-8";
+@import url("reset.css");
+
+.text_s {font-size:12px; color:#696969; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+
+a:link {color: #ff4b00; text-decoration: none;}
+a:visited {color: #ff9b00; text-decoration: none;}
+a:hover {color: #ffaf00; text-decoration: underline;}
+a:active {color: #ffff00;}
+/**首頁背景**/
+#CONTAINER{width:100%;background:url(../img/bg_main.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}
+
+/**對對碰背景**/
+#CONTAINER_2{
+	width:100%;
+	background:url(../img/bg_same.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}
+
+/**顯示積分頁**/	
+#CONTAINER_3{
+	width:100%;
+	background:url(../img/bg_integral.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}	
+	
+/**800頁**/	
+#CONTAINER_4{
+	width:100%;
+	background:url(../img/bg_800.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}	
+	
+/**2000頁**/	
+#CONTAINER_5{
+	width:100%;
+	background:url(../img/bg_2000.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}	
+	
+#CONTAINER_M{width:100%;background:url(../img/bg_choice.jpg) 0 0 no-repeat;background-position:center top;z-index:2;}
+
+
+/*預熱*/
+#Preheat{
+	width:100%;
+	background:url(../img/bg_6.jpg) 0 0 no-repeat;
+	background-position:center top;
+	z-index:2;
+}
+
+#WRAP {position: relative;margin: 0 auto;width: 970px;height: 920px;}
+#WRAP h1 a{
+	position: absolute;
+	top: 3px;
+	left: 30px;
+	display: block;
+	width: 250px;
+	height: 56px;
+	border: 0px;
+}
+#WRAP h2 a{
+	position: absolute;
+	top: 102px;
+	left: 49px;
+	display: block;
+	width: 167px;
+	height: 122px;
+	border: 0px;
+}
+#WRAP h3 a{
+	position: absolute;
+	top: 186px;
+	left: 185px;
+	display: block;
+	width: 131px;
+	height: 126px;
+	border: 0px;
+}
+#WRAP h4 a{
+	position: absolute;
+	top: 117px;
+	left: 437px;
+	display: block;
+	width: 125px;
+	height: 255px;
+	border: 0px;
+}
+
+#LRAP {position: relative;margin: 0 auto;width: 970px;height: 170px;}
+#LRAP h1 a{position:absolute;top:27px;left:27px;display:block;  width: 337px;height: 95px;border:0px;}
+#LRAP h2 a{position:absolute;top:0px;left:800px;display:block;  width: 125px;height: 169px;border:0px;}
+#LRAP h3 a{position:absolute;top:5px;left:631px;display:block;  width: 97px;height: 30px;border:0px;}
+
+#menu1{
+	position: absolute;
+	width: 476px;
+	height: 427px;
+	top: 60px;
+	left: 473px;
+	z-index: 2;
+}
+#menu2{
+	position: absolute;
+	width: 268px;
+	height: 269px;
+	top: 385px;
+	left: 341px;
+	z-index: 2;
+}
+
+/**對對碰頁**/
+#same_home{
+	position: absolute;
+	width: 188px;
+	height: 140px;
+	top: 69px;
+	left: 756px;
+	z-index: 2;
+}
+
+#same_game{
+	position: absolute;
+	width: 195px;
+	height: 144px;
+	top: 48px;
+	left: 745px;
+	z-index: 2;
+}
+#same_Poker1{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 225px;
+	left: 94px;
+	z-index: 2;
+}
+#same_Poker2{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 224px;
+	left: 217px;
+	z-index: 2;
+}
+#same_Poker3{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 225px;
+	left: 343px;
+	z-index: 2;
+}
+#same_Poker4{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 227px;
+	left: 476px;
+	z-index: 2;
+}
+#same_Poker5{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 225px;
+	left: 606px;
+	z-index: 2;
+}
+#same_Poker6{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 33px;
+	z-index: 2;
+}
+#same_Poker7{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 148px;
+	z-index: 2;
+}
+#same_Poker8{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 277px;
+	z-index: 2;
+}
+#same_Poker9{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 407px;
+	z-index: 2;
+}
+#same_Poker10{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 532px;
+	z-index: 2;
+}
+#same_Poker11{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 400px;
+	left: 665px;
+	z-index: 2;
+}
+#same_Poker12{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 580px;
+	left: 102px;
+	z-index: 2;
+}
+#same_Poker13{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 580px;
+	left: 223px;
+	z-index: 2;
+}
+#same_Poker14{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 580px;
+	left: 348px;
+	z-index: 2;
+}
+#same_Poker15{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 580px;
+	left: 472px;
+	z-index: 2;
+}
+
+#same_Poker16{
+	position: absolute;
+	width: 91px;
+	height: 129px;
+	top: 580px;
+	left: 601px;
+	z-index: 2;
+}
+
+/**積分頁**/
+
+#integral_game{
+	position: absolute;
+	width: 176px;
+	height: 145px;
+	top: 81px;
+	left: 761px;
+	z-index: 2;
+}
+
+#integral_h5play{
+	position: absolute;
+	width: 168px;
+	height: 143px;
+	top: 233px;
+	left: 724px;
+	z-index: 2;
+}
+
+
+#integral_today{
+	position: absolute;
+	width: 203px;
+	height: 77px;
+	top: 220px;
+	left: 302px;
+	z-index: 2;
+	color: #FFF;
+	font-size: 50px;
+	text-align: center
+}
+
+#integral_Currently{
+	position: absolute;
+	width: 327px;
+	height: 93px;
+	top: 353px;
+	left: 322px;
+	z-index: 2;
+	color: #FFF;
+	font-size: 70px;
+	text-align: center
+}
+
+#integral_mimi{
+	position: absolute;
+	width: 323px;
+	height: 163px;
+	top: 489px;
+	left: 566px;
+	z-index: 2;
+}
+#integral_3day{
+	position: absolute;
+	width: 313px;
+	height: 151px;
+	top: 654px;
+	left: 626px;
+	z-index: 2;
+}
+#integral_go{
+	position: absolute;
+	width: 461px;
+	height: 324px;
+	top: 467px;
+	left: 73px;
+	z-index: 2;
+}
+
+
+/**低分頁**/
+#low_game{
+	position: absolute;
+	width: 184px;
+	height: 129px;
+	top: 86px;
+	left: 743px;
+	z-index: 2;
+}
+
+#select800{
+	position: absolute;
+	width: 184px;
+	height: 34px;
+	top: 246px;
+	left: 503px;
+	z-index: 2;
+}
+
+#low_rabbit1{
+	position: absolute;
+	width: 290px;
+	height: 558px;
+	top: 236px;
+	left: 60px;
+	z-index: 2;
+}
+
+#low_rabbit2{
+	position: absolute;
+	width: 290px;
+	height: 558px;
+	top: 254px;
+	left: 320px;
+	z-index: 2;
+}
+#low_rabbit3{
+	position: absolute;
+	width: 290px;
+	height: 558px;
+	top: 245px;
+	left: 620px;
+	z-index: 2;
+}
+/**高分頁**/
+
+
+#tall_rabbit1{
+	position: absolute;
+	width: 290px;
+	height: 558px;
+	top: 235px;
+	left: 72px;
+	z-index: 2;
+}
+#select2000{
+	position: absolute;
+	width: 184px;
+	height: 34px;
+	top: 264px;
+	left: 503px;
+	z-index: 2;
+}
+#tall_rabbit2{
+	position: absolute;
+	width: 213px;
+	height: 304px;
+	top: 253px;
+	left: 340px;
+	z-index: 2;
+}
+#tall_rabbit3{
+	position: absolute;
+	width: 290px;
+	height: 558px;
+	top: 229px;
+	left: 614px;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+#L_menu1{position: absolute;width: 511px;height: 235px;top: 157px;left: 212px;z-index:2;}
+#L_menu2{position: absolute;width: 122px;height: 105px;top: 157px;left: 371px;z-index:2;}
+
+#L_CONTENT{ width: 970px;height: 670px;margin:0 auto;}
+#L_CONTENT ul{width: 800px; margin:0 auto; font-size:13px;font-family:Arial, Helvetica, sans-serif;letter-spacing:1px;color: #0f374b;line-height:22px;}
+
+#active_bg {position:relative; width:960px; height:570px;left:5px;top: 15px;background-repeat:no-repeat;z-index:3;}
+
+
+#top_forum{
+	position: absolute;
+	width: 133px;
+	height: 46px;
+	top: 8px;
+	left: 328px;
+	z-index: 2;
+}
+
+#top_taomee{
+	position: absolute;
+	width: 133px;
+	height: 46px;
+	top: 8px;
+	left: 454px;
+	z-index: 2;
+}
+
+#top_home{
+	position: absolute;
+	width: 133px;
+	height: 46px;
+	top: 8px;
+	left: 560px;
+	z-index: 2;
+}
+
+
+#copyright {
+	position: absolute;
+	background-image: url(../img/footer_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 70px;
+	width: 100%;
+	margin-top: -5px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	text-align: center;
+	left: 13px;
+	top: 774px;
+}
+
+#copyright_L {position:absolute; background-image:url(../img/footer_bg.png); background-repeat:no-repeat; background-position:center top; height:70px; width:100%;margin-top:5px;margin-right:auto; margin-left:auto; z-index:1;text-align: center;}
+
+/*光箱共用*/
+#windows_middle{width:720px; position:relative; margin:0 auto;}
+#windows_explain{width:870px; position:relative; margin:0 auto;}
+#windows_close{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 622px;
+	top: 8px;
+}
+#windows_close2{width:60px; height:60px; position:absolute; left:775px; top:16px;}
+
+/*登入光箱*/
+#login_bg{width:720px; height:520px; background-image:url(../img/windows_login.png); background-repeat:no-repeat;}
+
+/*已玩過光箱*/
+#login_bg{width:720px; height:520px; background-image:url(../img/windows_login.png); background-repeat:no-repeat;}
+
+.text_id{
+	position: absolute;
+	left: 307px;
+	top: 144px;
+	width: 241px;
+}
+.text_pw{
+	position: absolute;
+	left: 261px;
+	top: 213px;
+}
+#rbt_61{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 216px;
+	top: 288px;
+}
+#rbt_917{width:20px; height:20px; position:absolute; left:370px; top:280px;}
+#btn_login{
+	width: 160px;
+	height: 60px;
+	position: absolute;
+	left: 270px;
+	top: 315px;
+}
+#btn_clear{
+	width: 160px;
+	height: 60px;
+	position: absolute;
+	left: 187px;
+	top: 315px;
+}
+
+/*領取獎勵光箱*/
+#getaward_bg{width:720px; height:520px; background-image:url(../img/windows_awardInfo.png); background-repeat:no-repeat;}
+#cong_acct{
+	width: 360px;
+	height: 25px;
+	position: absolute;
+	left: 294px;
+	top: 109px;
+	font-size: 16px;
+	color: #004b7d;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#award_name{
+	width: 324px;
+	height: 25px;
+	position: absolute;
+	left: 303px;
+	top: 154px;
+	font-size: 15px;
+	color: #007de1;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#award_sn{
+	width: 344px;
+	height: 20px;
+	position: absolute;
+	left: 299px;
+	top: 227px;
+	font-size: 15px;
+	color: #007de1;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#btn_backA{width:210px; height:60px; position:absolute; left:230px; top:400px;}
+#check_snG{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 334px;
+	top: 301px;
+}
+#btn_back{
+	width: 170px;
+	height: 70px;
+	position: absolute;
+	left: 369px;
+	top: 386px;
+}
+
+/*未中獎光箱*/
+#nonAward_bg{width:720px; height:520px; background-image:url(../img/windows_nonAward.png); background-repeat:no-repeat;}
+#btn_backH{width:170px; height:70px; position:absolute; left:270px; top:315px;}
+
+/*已玩過光箱*/
+#nonAward_bg{width:720px; height:520px; background-image:url(../img/windows_played.png); background-repeat:no-repeat;}
+#btn_backH{
+	width: 170px;
+	height: 70px;
+	position: absolute;
+	left: 283px;
+	top: 376px;
+}
+
+/*已使用米米號註冊*/
+#mimi{width:720px; height:520px; background-image:url(../img/mimi.png); background-repeat:no-repeat;}
+
+/*尚未使用米米號註冊H5*/
+#h5play{width:720px; height:520px; background-image:url(../img/h5play.png); background-repeat:no-repeat;}
+
+/*沒資格抽獎*/
+#no_lottery{width:720px; height:520px; background-image:url(../img/800.png); background-repeat:no-repeat;}
+
+/*未中獎*/
+#Not_winning{width:720px; height:520px; background-image:url(../img/Not_winning.png); background-repeat:no-repeat;}
+
+
+/*簽到*/
+#Sign_in{width:720px; height:520px; background-image:url(../img/Sign_in.png); background-repeat:no-repeat;}
+#Ten_days{
+	width: 534px;
+	height: 45px;
+	position: absolute;
+	left: 103px;
+	top: 411px;
+	font-size: 30px;
+}
+
+
+
+#day1{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 51px;
+	top: 328px;
+}
+#day2{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 113px;
+	top: 328px;
+}
+#day3{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 175px;
+	top: 328px;
+}
+#day4{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 237px;
+	top: 328px;
+}
+#day5{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 298px;
+	top: 328px;
+}
+#day6{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 359px;
+	top: 328px;
+}
+#day7{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 421px;
+	top: 328px;
+}
+#day8{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 483px;
+	top: 328px;
+}
+#day9{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 545px;
+	top: 328px;
+}
+#day10{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 607px;
+	top: 328px;
+}
+
+
+
+
+
+
+
+
+
+/*活動說明光箱*/
+#border_top {width: 870px; height:115px; background-image:url(../img/border_top.png); background-repeat:no-repeat;}
+#border_middle {width: 870px; background-image:url(../img/border_middle.png);}
+#border_down {width: 870px; height:120px; background-image:url(../img/border_down.png); background-repeat:no-repeat;}
+#title {width: 234px; height:50px; position:absolute; left:305px; top:15px;}

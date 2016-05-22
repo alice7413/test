@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title></title>
+
+<link href="css/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+
+<?php 
+include("test0511-header.html");
+?>
+
+<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+<!-- jQuery UI (optional) -->
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script> window.jQuery.ui || document.write('<script src="booklet/jquery-ui-1.10.4.custom.min.js"><\/script>') </script>
+
+<!--typist 打字-->
+<script src="jquery.typist.js"></script>
+
+<!--booklet 翻頁-->
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.booklet.latest.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/header.css">
+
+<script>
+$(function(){
+	$('.page-web').click(function(){
+		$('.page-web-detail')
+			.typist({
+				speed: 12,
+				text: '活動案\n\n'
+			})
+			.typistAdd('兒童節\nhttps://www.google.com.tw/\n\n')
+            .typistAdd('新年\n\n')
+            .typistAdd('聖誕節\nhttps://www.google.com.tw/\n\n');
+	});
+
+    $('#mybook').booklet({ width: '90%' });
+    $('.page-app').click(function(){
+        $('.page-app-detail')
+            .typist({
+                speed: 12,
+                text: '米樂町(積點兌換獎勵平台)\n\n'
+            })
+            .typistAdd('參與android(原生)前端的開發，API及FB SDK串接。');
+    });
+});
+</script>
+
+</head>
+<link rel="stylesheet" type="text/css" href="header.css">
+<body>
+    <iframe frameborder="0" src="header.html" width="100%" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; "></iframe>
+<div id="alice">
+<!--<div id="container"><p style="font-size: 40pt;">~</p></div>-->
+<p class="page">(jquery 插件翻頁及打字)</p>
+
+<div id="mybook">
+    <div> 
+        <h1 class="page-web">web</h1>
+    </div>
+    <div> 
+        <h3 class="page-web-detail"></h3>
+    </div>
+    <div > 
+        <h1 class="page-app">專案</h1>
+    </div>
+    <div> 
+        <h3 class="page-app-detail"></h3>
+    </div>
+     <div > 
+        <h1 class="page-other">練習</h1>
+    </div>
+    <div> 
+        <h3 class="page-other-detail">JSP</h3>
+    </div>
+     
+</div>
+
+</div>
+
+<!--
+css hover:font color
+jquery hover:background-color
+-->
+<?php 
+include("foot.html");
+?>
+<iframe frameborder="0" src="foot.html" width="100%" marginwidth="0" marginheight="0" scrolling="no" style="width:100%; "></iframe>
+</body>
+
+</html>
